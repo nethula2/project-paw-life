@@ -1,5 +1,6 @@
 # Netlify Configuration for PawLife Pet Care System
 [build]
+  base = ""
   publish = "public"
 
 # SPA & Clean URL Redirects
