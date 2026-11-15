@@ -8,7 +8,7 @@
     --bg-cream: #FAF7F0;
     --orange-hero: #FF5A27;
     --orange-dark: #D43E10;
-    --btn-brown: #9e4141;
+    --btn-brown: #9E6B41;
     --btn-brown-dark: #7A502D;
     --purple-main: #542E88;
     --purple-dark: #3E1E69;
@@ -51,37 +51,37 @@ body {
 .btn-chunky-brown {
     background-color: var(--btn-brown);
     color: #FFFFFF !important;
-    border: 2.5px solid #1717f3;
+    border: 2.5px solid #000000;
     border-radius: 9999px;
     font-weight: 800;
-    box-shadow: 0 4px 0 #00b7ff;
+    box-shadow: 0 4px 0 #000000;
     transition: all 0.15s ease-in-out;
     cursor: pointer;
 }
 .btn-chunky-brown:hover {
     background-color: var(--btn-brown-dark);
     transform: translateY(2px);
-    box-shadow: 0 2px 0 #2D1D13;
+    box-shadow: 0 2px 0 #000000;
 }
 .btn-chunky-brown:active {
     transform: translateY(4px);
-    box-shadow: 0 0 0 #2D1D13;
+    box-shadow: 0 0 0 #000000;
 }
 
 .btn-chunky-outline {
     background-color: #FFFFFF;
-    color: #2D1D13 !important;
-    border: 2.5px solid #2D1D13;
+    color: #000000 !important;
+    border: 2.5px solid #000000;
     border-radius: 9999px;
     font-weight: 800;
-    box-shadow: 0 4px 0 #2D1D13;
+    box-shadow: 0 4px 0 #000000;
     transition: all 0.15s ease-in-out;
     cursor: pointer;
 }
 .btn-chunky-outline:hover {
     background-color: #F5EFE6;
     transform: translateY(2px);
-    box-shadow: 0 2px 0 #2D1D13;
+    box-shadow: 0 2px 0 #000000;
 }
 
 .btn-chunky-dark {
