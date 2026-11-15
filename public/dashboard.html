@@ -41,7 +41,54 @@
     </script>
     
     <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="/css/style.css?v=5.0">
+    <link rel="stylesheet" href="/css/style.css?v=6.0">
+    <style>
+        /* Force Solid Black Borders & Retain Original Color for Buttons */
+        .btn-chunky-brown,
+        button.btn-chunky-brown,
+        a.btn-chunky-brown {
+            background-color: #9e4141 !important;
+            color: #FFFFFF !important;
+            border: 2.5px solid #000000 !important;
+            border-radius: 9999px !important;
+            box-shadow: 0 4px 0 #000000 !important;
+            outline: none !important;
+        }
+        .btn-chunky-brown:hover,
+        button.btn-chunky-brown:hover,
+        a.btn-chunky-brown:hover {
+            background-color: #7a3030 !important;
+            transform: translateY(2px) !important;
+            box-shadow: 0 2px 0 #000000 !important;
+        }
+        .btn-chunky-brown:active,
+        button.btn-chunky-brown:active,
+        a.btn-chunky-brown:active {
+            transform: translateY(4px) !important;
+            box-shadow: 0 0 0 #000000 !important;
+        }
+        .btn-chunky-outline,
+        button.btn-chunky-outline,
+        a.btn-chunky-outline {
+            background-color: #FFFFFF !important;
+            color: #000000 !important;
+            border: 2.5px solid #000000 !important;
+            border-radius: 9999px !important;
+            box-shadow: 0 4px 0 #000000 !important;
+        }
+        .btn-chunky-dark,
+        button.btn-chunky-dark,
+        a.btn-chunky-dark {
+            border: 2.5px solid #000000 !important;
+            box-shadow: 0 4px 0 #000000 !important;
+        }
+        .btn-chunky-teal,
+        button.btn-chunky-teal,
+        a.btn-chunky-teal {
+            border: 2px solid #000000 !important;
+            box-shadow: 0 3px 0 #000000 !important;
+        }
+    </style>
 </head>
 <body class="bg-[#FAF7F0] text-slate-900 font-sans antialiased h-screen flex overflow-hidden relative">
 
