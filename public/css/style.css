@@ -8,8 +8,8 @@
     --bg-cream: #FAF7F0;
     --orange-hero: #FF5A27;
     --orange-dark: #D43E10;
-    --btn-brown: #9E6B41;
-    --btn-brown-dark: #7A502D;
+    --btn-brown: #9e4141;
+    --btn-brown-dark: #7a3030;
     --purple-main: #542E88;
     --purple-dark: #3E1E69;
     --pink-spa: #FFAEC4;
@@ -103,17 +103,17 @@ body {
 .btn-chunky-teal {
     background-color: #0d9488;
     color: #FFFFFF !important;
-    border: 2px solid #134e4a;
+    border: 2px solid #000000;
     border-radius: 0.75rem;
     font-weight: 700;
-    box-shadow: 0 3px 0 #134e4a;
+    box-shadow: 0 3px 0 #000000;
     transition: all 0.15s ease;
     cursor: pointer;
 }
 .btn-chunky-teal:hover {
     background-color: #0f766e;
     transform: translateY(1px);
-    box-shadow: 0 2px 0 #134e4a;
+    box-shadow: 0 2px 0 #000000;
 }
 
 /* Feature Cards with bottom-right hard shadow */
